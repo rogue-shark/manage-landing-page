@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/output.css" />
+    <script src="js/script.js" defer></script>
     <title>Manage Landing Page</title>
   </head>
   <body>
-    <!-- navbar -->
+    <!-- Navbar -->
     <nav class="relative container mx-auto p-6">
-      <!-- flex container -->
+      <!-- Flex container -->
       <div class="flex items-center justify-between">
-        <!-- logo -->
+        <!-- Logo -->
         <div class="pt-2">
-          <img src="/images/logo.svg" alt="logo" />
+          <img src="images/logo.svg" alt="" />
         </div>
-        <!-- menu -->
-        <!-- shows up on medium screens and up  -->
+        <!-- Menu Items -->
         <div class="hidden space-x-6 md:flex">
           <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
           <a href="#" class="hover:text-darkGrayishBlue">Product</a>
@@ -25,13 +25,36 @@
           <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
           <a href="#" class="hover:text-darkGrayishBlue">Community</a>
         </div>
-        <!-- button -->
+        <!-- Button -->
         <a
-          href=""
-          class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline md:block"
+          href="#"
+          class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+          >Get Started</a
         >
-          Get Started
-        </a>
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger-menu md:hidden focus:outline-none"
+        >
+          <span class="hamburger-bar bar-top"></span>
+          <span class="hamburger-bar bar-middle"></span>
+          <span class="hamburger-bar bar-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#">Pricing</a>
+          <a href="#">Product</a>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Community</a>
+        </div>
       </div>
     </nav>
     <!-- hero section-->
@@ -319,7 +342,7 @@
             </div>
           </form>
           <div class="hidden text-white md:block">
-            Copyright &copy: 2023, All Rights Reserved
+            Copyright &copy 2023 | All Rights Reserved
           </div>
         </div>
       </div>
