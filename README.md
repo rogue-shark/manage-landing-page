@@ -2,13 +2,13 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/rogue-shark/manage-landing-page">
+    <a href="https://rogue-shark.github.io/manage-landing-page">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/rogue-shark/Error_404_not_found">
+    <a href="https://github.com/rogue-shark/manage-landing-page">
       Solution
   </h3>
 </div>
 
-<p> Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.</p>
+<p> Solution for a challenge from  <a href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5" target="_blank">Devchallenges.io</a>.</p>
